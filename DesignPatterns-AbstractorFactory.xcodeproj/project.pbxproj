@@ -12,6 +12,15 @@
 		EEE4A47E2098257E00044C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4A47D2098257E00044C79 /* Assets.xcassets */; };
 		EEE4A4812098257E00044C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4A47F2098257E00044C79 /* Main.storyboard */; };
 		EEE4A4842098257E00044C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4832098257E00044C79 /* main.m */; };
+		EEE4A48D209825CD00044C79 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A48C209825CD00044C79 /* AbstractFactory.m */; };
+		EEE4A4902098261500044C79 /* ConcreteFactory1.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A48F2098261500044C79 /* ConcreteFactory1.m */; };
+		EEE4A4932098262300044C79 /* ConcreteFactory2.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4922098262300044C79 /* ConcreteFactory2.m */; };
+		EEE4A4962098263500044C79 /* AbstractProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4952098263500044C79 /* AbstractProductA.m */; };
+		EEE4A4992098264900044C79 /* AbstractProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4982098264900044C79 /* AbstractProductB.m */; };
+		EEE4A49F2098267400044C79 /* ProductA2.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A49E2098267400044C79 /* ProductA2.m */; };
+		EEE4A4A22098268100044C79 /* ProductA1.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4A12098268100044C79 /* ProductA1.m */; };
+		EEE4A4A5209826AF00044C79 /* ProductB1.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4A4209826AF00044C79 /* ProductB1.m */; };
+		EEE4A4A8209826C500044C79 /* ProductB2.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4A7209826C500044C79 /* ProductB2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +34,24 @@
 		EEE4A4822098257E00044C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEE4A4832098257E00044C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEE4A4852098257E00044C79 /* DesignPatterns_AbstractorFactory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignPatterns_AbstractorFactory.entitlements; sourceTree = "<group>"; };
+		EEE4A48B209825CD00044C79 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		EEE4A48C209825CD00044C79 /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		EEE4A48E2098261500044C79 /* ConcreteFactory1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteFactory1.h; sourceTree = "<group>"; };
+		EEE4A48F2098261500044C79 /* ConcreteFactory1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteFactory1.m; sourceTree = "<group>"; };
+		EEE4A4912098262300044C79 /* ConcreteFactory2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteFactory2.h; sourceTree = "<group>"; };
+		EEE4A4922098262300044C79 /* ConcreteFactory2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteFactory2.m; sourceTree = "<group>"; };
+		EEE4A4942098263500044C79 /* AbstractProductA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractProductA.h; sourceTree = "<group>"; };
+		EEE4A4952098263500044C79 /* AbstractProductA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractProductA.m; sourceTree = "<group>"; };
+		EEE4A4972098264900044C79 /* AbstractProductB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractProductB.h; sourceTree = "<group>"; };
+		EEE4A4982098264900044C79 /* AbstractProductB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractProductB.m; sourceTree = "<group>"; };
+		EEE4A49D2098267400044C79 /* ProductA2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductA2.h; sourceTree = "<group>"; };
+		EEE4A49E2098267400044C79 /* ProductA2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductA2.m; sourceTree = "<group>"; };
+		EEE4A4A02098268100044C79 /* ProductA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductA1.h; sourceTree = "<group>"; };
+		EEE4A4A12098268100044C79 /* ProductA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductA1.m; sourceTree = "<group>"; };
+		EEE4A4A3209826AF00044C79 /* ProductB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductB1.h; sourceTree = "<group>"; };
+		EEE4A4A4209826AF00044C79 /* ProductB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductB1.m; sourceTree = "<group>"; };
+		EEE4A4A6209826C500044C79 /* ProductB2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductB2.h; sourceTree = "<group>"; };
+		EEE4A4A7209826C500044C79 /* ProductB2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductB2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +86,24 @@
 			children = (
 				EEE4A4772098257E00044C79 /* AppDelegate.h */,
 				EEE4A4782098257E00044C79 /* AppDelegate.m */,
+				EEE4A48B209825CD00044C79 /* AbstractFactory.h */,
+				EEE4A48C209825CD00044C79 /* AbstractFactory.m */,
+				EEE4A48E2098261500044C79 /* ConcreteFactory1.h */,
+				EEE4A48F2098261500044C79 /* ConcreteFactory1.m */,
+				EEE4A4912098262300044C79 /* ConcreteFactory2.h */,
+				EEE4A4922098262300044C79 /* ConcreteFactory2.m */,
+				EEE4A4942098263500044C79 /* AbstractProductA.h */,
+				EEE4A4952098263500044C79 /* AbstractProductA.m */,
+				EEE4A4972098264900044C79 /* AbstractProductB.h */,
+				EEE4A4982098264900044C79 /* AbstractProductB.m */,
+				EEE4A49D2098267400044C79 /* ProductA2.h */,
+				EEE4A49E2098267400044C79 /* ProductA2.m */,
+				EEE4A4A02098268100044C79 /* ProductA1.h */,
+				EEE4A4A12098268100044C79 /* ProductA1.m */,
+				EEE4A4A3209826AF00044C79 /* ProductB1.h */,
+				EEE4A4A4209826AF00044C79 /* ProductB1.m */,
+				EEE4A4A6209826C500044C79 /* ProductB2.h */,
+				EEE4A4A7209826C500044C79 /* ProductB2.m */,
 				EEE4A47A2098257E00044C79 /* ViewController.h */,
 				EEE4A47B2098257E00044C79 /* ViewController.m */,
 				EEE4A47D2098257E00044C79 /* Assets.xcassets */,
@@ -140,6 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE4A4932098262300044C79 /* ConcreteFactory2.m in Sources */,
+				EEE4A4A22098268100044C79 /* ProductA1.m in Sources */,
+				EEE4A49F2098267400044C79 /* ProductA2.m in Sources */,
+				EEE4A4962098263500044C79 /* AbstractProductA.m in Sources */,
+				EEE4A48D209825CD00044C79 /* AbstractFactory.m in Sources */,
+				EEE4A4902098261500044C79 /* ConcreteFactory1.m in Sources */,
+				EEE4A4A5209826AF00044C79 /* ProductB1.m in Sources */,
+				EEE4A4A8209826C500044C79 /* ProductB2.m in Sources */,
+				EEE4A4992098264900044C79 /* AbstractProductB.m in Sources */,
 				EEE4A47C2098257E00044C79 /* ViewController.m in Sources */,
 				EEE4A4842098257E00044C79 /* main.m in Sources */,
 				EEE4A4792098257E00044C79 /* AppDelegate.m in Sources */,
