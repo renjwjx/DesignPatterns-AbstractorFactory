@@ -18,15 +18,15 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    ConcreteFactory1* factory1 = [[ConcreteFactory1 alloc] init];
     
-    ProductA1* pA1= [factory1 makeProductA1];
-    ProductB1* pB1 = [factory1 makeProdcutB1];
+//    ConcreteFactory1* factory1 = [[ConcreteFactory1 alloc] init];
+    ConcreteFactory2* factory = [[ConcreteFactory2 alloc] init];
+    AbstractProductA* pA= [factory makeProductA];
+    AbstractProductB* pB = [factory makeProdcutB];
     
-    NSLog(@"ProdcutA1:%@, ProductB1:%@", pA1, pB1);
+    NSLog(@"ProdcutA1:%@, ProductB1:%@", pA, pB);
     
 }
-
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application

@@ -9,12 +9,12 @@
 #import "ConcreteFactory2.h"
 
 @implementation ConcreteFactory2
-- (ProductA2*)makeProductA2
+- (ProductA2*)makeProductA
 {
     NSLog(@"make ProductA2");
     return [[ProductA2 alloc] init];
 }
-- (ProductB2*)makeProdcutB2
+- (ProductB2*)makeProdcutB
 {
     NSLog(@"make ProductB2");
     return [[ProductB2 alloc] init];

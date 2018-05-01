@@ -11,7 +11,7 @@
 #import "ProductB1.h"
 
 @interface ConcreteFactory1 : AbstractFactory
-- (ProductA1*)makeProductA1;
-- (ProductB1*)makeProdcutB1;
+- (ProductA1*)makeProductA;
+- (ProductB1*)makeProdcutB;
 
 @end
